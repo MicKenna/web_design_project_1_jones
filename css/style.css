@@ -8,7 +8,7 @@ White: #FFFFFF
 
 #header{
     background-color:#262422;
-    text-align: center;
+    text-align: right;
     font-family: 'lato';
     position: relative
     transform: translateY(50%);
@@ -18,17 +18,17 @@ White: #FFFFFF
 #header > h1 {
     
     margin: 0;
-    text-align: center;
+    text-align: right;
     font-family: 'Lato', sans-serif;
     position: relative
     transform: translateY(50%);
 }
 body {
     background-color: #262422;
-    color:#FF0F18;
+    color:#787474;
 }
 #nav {
-    background-color:#FF0F18;
+    background-color:#262422;
     min-height: 80px;
     font-family: 'Lato', sans-serif;
     height: auto;
@@ -41,14 +41,14 @@ body {
 #nav > ul >button {
     min-width: 178px;
     color: #ffffff;
-    background-color: #EDBA18;
+    background-color: #191970;
     border: none;
     padding: 15px 32px;
     transition: background-color .25s;
-    border-bottom: 2px solid #FF0F18;
+    border: 2px solid #787474;
 }
 #nav > ul >button:hover {
-    background-color:#B2790F;
+    background-color: darkred;
     
 }
 /*
@@ -84,18 +84,18 @@ body {
 .image-content > img {
     max-width: 200px;
     border-radius: 50%;
-    border: 4px #EDBA18 solid;
+    border: 4px #191970 solid;
 }
 
 .image-content > h4 {
     font-family: 'Lato',sans-serif;
     font-weight: 300;
-    color: #FF0F18;
+    color: #787474;
     
 }
 
 .image-content > h4 > a {
-       color: #FF0F18;
+       color: #787474;
 }
 
 .image-content > h4 > a:hover {
@@ -108,7 +108,7 @@ body {
  text-align: center;
 }
 #main-content-wrapper article p {
-    max-width: 300px;
+    max-width: 700px;
     margin:0 auto;
 }
 #main-content-wrapper #skills {
@@ -121,7 +121,7 @@ body {
     font-weight: 400px;
 }
 #aside-content-wrapper {
-    background-color:#000000;
+    background-color:#262422;
     font-family: 'lato',sans-serif;
     margin-top: 50px;
 }
@@ -132,7 +132,7 @@ body {
     text-align: center;
 }
 footer {
-    background-color: #000000;
+    background-color: #262422;
     text-align: center;
     font-family: 'lato',sans-serif;
     min-height: 100px;
@@ -140,6 +140,8 @@ footer {
 }
 #latest-work {
     list-style-type: none;
+    background-color: #262422;
+    
 }
 #latest-work > li {
     padding-top: 15px;
@@ -161,9 +163,9 @@ footer {
     position: relative;
 }
 #favorit-sites {
-    background-image: url(img/soldier.jpeg);
+    background-image: url(img/theline.jpg);
     border-top:5px #EDBA18 solid;
-    border-bottom:5px #FF0F18 solid;
+    border-bottom:5px #787474 solid;
     text-align: center;
     
 }
