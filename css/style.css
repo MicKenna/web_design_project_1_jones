@@ -12,7 +12,9 @@ White: #FFFFFF
     font-family: 'lato';
     position: relative
     transform: translateY(50%);
-    
+     background-image: url(img/sniper2.jpg);
+        padding: 100px 10px;
+color:#454e57
 } 
 
 #header > h1 {
@@ -22,6 +24,10 @@ White: #FFFFFF
     font-family: 'Lato', sans-serif;
     position: relative
     transform: translateY(50%);
+    color: 
+}
+#header > h2 {
+    color:#454e57
 }
 body {
     background-color: #262422;
@@ -48,7 +54,7 @@ body {
     border: 2px solid #787474;
 }
 #nav > ul >button:hover {
-    background-color: darkred;
+    background-color: #787474;
     
 }
 /*
@@ -99,7 +105,7 @@ body {
 }
 
 .image-content > h4 > a:hover {
-    color: darkred;
+    color: #787474;
 }
 #main-content-wrapper article {
    
@@ -164,7 +170,7 @@ footer {
 }
 #favorit-sites {
     background-image: url(img/theline2.jpg);
-    border-top:5px #EDBA18 solid;
+    border-top:5px #787474 solid;
     border-bottom:5px #787474 solid;
     text-align: center;
     
@@ -183,6 +189,11 @@ footer >h1 {
 .max-width {
     margin:0 auto;
     max-width: 960px;
+}
+.button-wrap {
+    background-image: url(img/theline2.jpg);
+     border-top:5px #787474 solid;
+    border-bottom:5px #787474 solid;
 }
 
 /*bootstrap related*/
