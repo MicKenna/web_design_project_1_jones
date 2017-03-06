@@ -79,7 +79,9 @@ body {
 }
 */
 .side-by-side {
-    
+    background-image: url(img/We_Are_ODST.jpg);
+    border-left:4px #787474 solid;
+    border-right:4px #787474 solid; 
 }
 #main-content-wrapper .image-content {
     text-align: center;
@@ -132,7 +134,7 @@ body {
     margin-top: 50px;
 }
 #aisde-right {
-    margin: 0 50px 0 8px;
+    margin: 0 50px, 0 8px;
 }
 #aisde-right h3 {
     text-align: center;
