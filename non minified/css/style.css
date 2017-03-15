@@ -1,0 +1,153 @@
+#header,
+#header>h1 {
+    text-align: right;
+    position: relative transform: translateY(50%)
+}
+#header,
+#header>h2 {
+    color: #454e57
+}
+#header,
+#nav,
+body {
+    background-color: #262422
+}
+#header {
+    font-family: lato;
+    background-image: url(img/sniper2.jpg);
+    padding: 100px 10px
+}
+#header>h1,
+#nav,
+.image-content>h4 {
+    font-family: Lato, sans-serif
+}
+#header>h1 {
+    margin: 0
+}
+#aisde-right h3,
+#favorit-sites,
+#main-content-wrapper #skills,
+#main-content-wrapper article h2,
+#nav>ul,
+footer {
+    text-align: center
+}
+body {
+    color: #787474
+}
+#nav {
+    min-height: 80px;
+    height: auto
+}
+#nav>ul {
+    margin: 0;
+    padding: 15px 0
+}
+#nav>ul>button {
+    min-width: 178px;
+    color: #fff;
+    background-color: #191970;
+    padding: 15px 32px;
+    transition: background-color .25s;
+    border: 2px solid #787474
+}
+#nav>ul>button:hover {
+    background-color: #787474
+}
+.side-by-side {
+    background-image: url(img/We_Are_ODST.jpg);
+    border-left: 4px #787474 solid;
+    border-right: 4px #787474 solid
+}
+#main-content-wrapper .image-content {
+    text-align: center;
+    margin: 50px auto 0
+}
+.image-content>img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 4px solid #191970
+}
+.image-content>h4 {
+    font-weight: 300;
+    color: #787474
+}
+#aside-content-wrapper,
+footer {
+    font-family: lato, sans-serif;
+    background-color: #262422
+}
+.image-content>h4>a,
+.image-content>h4>a:hover {
+    color: #787474
+}
+#main-content-wrapper article p {
+    max-width: 700px;
+    margin: 0 auto
+}
+#main-content-wrapper #skills {
+    font-weight: 300px;
+    letter-spacing: 2px
+}
+#main-content-wrapper #skills span {
+    font-weight: 400px
+}
+#aside-content-wrapper {
+    margin-top: 50px
+}
+#aisde-right {
+    margin: 0 50px, 0
+}
+footer {
+    min-height: 100px
+}
+#latest-work {
+    list-style-type: none;
+    background-color: #262422
+}
+#latest-work>li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px #EDBA18 solid
+}
+#latest-work>li:before {
+    content: '';
+    border-color: transparent #EDBA18;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative
+}
+#favorit-sites,
+.button-wrap {
+    background-image: url(img/theline2.jpg);
+    border-top: 5px #787474 solid;
+    border-bottom: 5px #787474 solid
+}
+#favorit-sites ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px
+}
+footer>h1 {
+    margin: 0;
+    transform: translateY(50%)
+}
+#favorit-sites>.row>.col-md-4>img,
+.max-width {
+    margin: 0 auto
+}
+.max-width {
+    max-width: 960px
+}
+.container-fluid {
+    padding: 0
+}
